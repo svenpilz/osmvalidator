@@ -1,0 +1,12 @@
+[package]
+name = "osmvalidator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.4", features = ["derive"] }
+nalgebra = "0.32.5"
+osmpbfreader = "0.16.1"
+petgraph = "0.6.5"
+serde = "1.0.203"
+serde_json = "1.0.117"
